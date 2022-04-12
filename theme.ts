@@ -15,7 +15,7 @@ export const theme = {
   colors: {
     // tonalOffset: 0.2,
     primary: {
-      main: '#227a88',
+      main: '#0095E8',
       // light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
       // dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.main),
       // contrastText: ({ colors }) => readableColor(colors.primary.main),
@@ -45,7 +45,7 @@ export const theme = {
     //   contrastText: ({ colors }) => readableColor(colors.info.main),
     // },
     text: {
-      primary: '#424242',
+      primary: '#4e566d',
       // secondary: '#4e566d',
     },
     // border: {
