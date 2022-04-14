@@ -11,6 +11,7 @@ linkChecker:
 logo:
   image: ./images/1sb_white.png
   altText: 1Silverbullet
+  href: '#'
 toc:
   enable: true
 oasDefinitions:

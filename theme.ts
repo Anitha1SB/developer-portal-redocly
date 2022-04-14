@@ -15,7 +15,7 @@ export const theme = {
   colors: {
     // tonalOffset: 0.2,
     primary: {
-      main: '#0095E8',
+      main: '#227a88',
       // light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
       // dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.main),
       // contrastText: ({ colors }) => readableColor(colors.primary.main),
@@ -45,7 +45,7 @@ export const theme = {
     //   contrastText: ({ colors }) => readableColor(colors.info.main),
     // },
     text: {
-      primary: '#4e566d',
+      primary: '#0096FF',
       // secondary: '#4e566d',
     },
     // border: {
@@ -86,10 +86,10 @@ export const theme = {
     //   gradient: ({ colors }) => darken(colors.tonalOffset / 2, colors.navbar.main),
     //   contrastText: 'white'
     // },
-    // footer: {
-      // main: ({ colors }) => colors.primary.main,
-      // contrastText: 'white'
-    // },
+    footer: {
+      main: ({ colors }) => colors.primary.main,
+      contrastText: 'white'
+    },
   },
 
   sidebar: {

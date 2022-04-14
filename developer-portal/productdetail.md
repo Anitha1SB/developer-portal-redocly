@@ -1,4 +1,4 @@
-| manufacturer Code           | Product Code         | 
+| Distributor Code           | Product Code         | 
 |-----------------------------|----------------------|
 | ICICI                       | All Products         | 
 
