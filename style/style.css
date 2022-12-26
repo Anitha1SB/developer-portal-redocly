@@ -1,0 +1,140 @@
+.button-transition {
+    transition: 188ms;
+    transition-timing-function: ease-in-out;
+  }
+  
+  .button-transition:hover {
+    /* width: 20%; */
+    background-color: black;
+  }
+  
+  .button-passive-transition:hover {
+    /* width: 15%; */
+    background-color: #F7F8FA;
+  }
+  .card-left{
+    width:943px;
+  }
+  .card-right{
+    width:370px;
+  }
+  .button-active {
+    background-color: #4f4ce3;
+    box-shadow: 0px 5px 5px #0000000D;
+    border-radius: 5px;
+    opacity: 1;
+    text-align: center;
+    font-weight: 400;
+    width: 143px;
+    height: 43px;
+    color: white;
+    
+  }
+  
+  .button-passive {
+    background-color: white;
+    box-shadow: 0px 5px 5px #0000000D;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 400;
+    width: 143px;
+    height: 43px;
+    color: #4C4ADC;
+    border-color: rgb(79 70 229);
+    border-width: 1px;
+    font-size: large;
+  }
+  
+  .button-transparent {
+    top: 248px;
+    left: 746px;
+    width: 150px;
+    height: 48px;
+    border: 2px solid var(--unnamed-color-ffffff);
+    background: #80A3B9 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    opacity: 1;
+  }
+  
+  .h1-style {
+    font-weight: 700;
+    font-size: 1.875rem;
+    /* 30px */
+    line-height: 2.25rem;
+    /* 36px */
+    color: rgb(0 0 0);
+  }
+  
+  .h2-style {
+    font-weight: 700;
+    font-size: 1.5rem;
+    /* 20px */
+    line-height: 1.75rem;
+    /* 28px */
+    color: rgb(0 0 0);
+  }
+  
+  .para-style {
+    font-weight: 500;
+    font-size: 1.125rem;
+    /* 18px */
+    line-height: 1.75rem;
+    /* 28px */
+    color: gray;
+  }
+  
+  .h3-style {
+    font-weight: 500;
+    font-size: 1.125rem;
+    /* 18px */
+    line-height: 1.75rem;
+    /* 28px */
+    color: rgb(0, 0, 0);
+  }
+  
+  .info-style {
+    font-weight: 600;
+    font-size: 0.875rem;
+    /* 14px */
+    line-height: 1.25rem;
+    /* 20px */
+    color: gray;
+  }
+   .smallsize{
+    /* font-size: 0.650rem; */
+    color: rgb(189, 26, 26);
+  
+   }
+  .input-field-style {
+    /* width: auto; */
+    padding: 4px 11px 4px ;
+    /* padding-left: 4px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px; */
+    margin: 3px;
+    display: inline-block;
+    border: 1px solid rgba(204, 204, 204, 0.795);
+    border-width: 1.5px;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .dropdown-style {
+    width: auto;
+    border: #80A3B9;
+    border-width: 1.5px;
+    color: gray;
+  }
+  
+  .dropdown-menu-style {
+    width: 100%;
+    display: block;
+    color: gray;
+  
+  }
+  
+
+  
+  

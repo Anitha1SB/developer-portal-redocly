@@ -1,5 +1,6 @@
 import { lighten, darken, readableColor } from 'polished';
 
+
 export const theme = {
   // spacing: {
   //   unit: 5,
@@ -15,7 +16,7 @@ export const theme = {
   colors: {
     // tonalOffset: 0.2,
     primary: {
-      main: '#227a88',
+      main: '#1B2E53',
       // light: ({ colors }) => lighten(colors.tonalOffset, colors.primary.main),
       // dark: ({ colors }) => darken(colors.tonalOffset, colors.primary.main),
       // contrastText: ({ colors }) => readableColor(colors.primary.main),
@@ -45,7 +46,7 @@ export const theme = {
     //   contrastText: ({ colors }) => readableColor(colors.info.main),
     // },
     text: {
-      primary: '#0096FF',
+      primary: '#1B2E53',
       // secondary: '#4e566d',
     },
     // border: {
@@ -149,7 +150,9 @@ export const theme = {
       fontFamily: '"Source Code Pro", sans-serif',
       // fontWeight: ({ typography }) => typography.fontWeightRegular,
       color: '#e53935',
-      backgroundColor: 'rgba(38, 50, 56, 0.04)',
+      // smallsize,
+      // color:smallsize,
+      backgroundColor: '#F5B050',
       wrap: false,
     },
     links: {
@@ -177,8 +180,8 @@ export const theme = {
     //   color: theme => theme.colors.text.secondary,
     // },
   },
-  // codeBlock: {
-  //   backgroundColor: ({ rightPanel }) => darken(0.1, rightPanel.backgroundColor),
-  //   tokens: {},
-  // },
+  codeBlock: {
+    backgroundColor: ({ rightPanel }) => darken(0.1, rightPanel.backgroundColor),
+    tokens: {},
+  },
 };
